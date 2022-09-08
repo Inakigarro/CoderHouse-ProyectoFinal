@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    background-color: #222831;
+    color: #EEEEEE;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+}
+
+header{
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+
+    margin: 5px;
+    background-color: #393E46;
+    border-bottom: 5px solid #eeeeee79;
+    border-right: 5px solid #eeeeee79;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+    header .logo{
+        margin: 20px;
+    }
+
+    header nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 20px;
+    }
+        header nav li{
+            list-style: none;
+            margin-right: 10px;
+        }
+        header nav a, a:visited{
+            color: inherit
+        }
+
+.MiMusica{
+    /* Display */
+    display: flex;
+    flex-direction: column;
+
+    /* Margin */
+    margin-left: 5px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+
+    width: 20%;
+    border-radius: 10px;
+    background-color: #393E46;
+}
+    .MiMusica .TituloMusica {
+        margin-left: 17px;
+        margin-top: 14px;
+        margin-bottom: 28px;
+        font-size: 25px;
+    }
+
+    .MiMusica .spotify{
+        width: 90%;
+
+        margin-left: 17px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+.redesSociales{
+    /* Display*/
+    display: flex;
+    flex-direction: column;
+    background-color: #393E46;
+    border-radius: 10px;
+    width: 20%;
+}
+    .redesSociales .pestañas {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+        .redesSociales .pestañas .instagram{
+            background-color: #D65A31;
+        }
+        .redesSociales .pestañas .twitter{
+            background-color: #D65A31;
+        }

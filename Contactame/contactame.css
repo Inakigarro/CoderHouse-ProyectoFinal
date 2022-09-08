@@ -1,0 +1,10 @@
+fieldset{
+    display: flex;
+    max-width: 50%;
+}
+
+fieldset .contactame{
+    display: inherit;
+    flex-direction: column;
+    width: 100%;
+}
