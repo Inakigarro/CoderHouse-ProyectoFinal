@@ -86,3 +86,26 @@ header{
         .redesSociales .pestañas .twitter{
             background-color: #D65A31;
         }
+
+.footer {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    background-color: #393E46;
+    list-style: none;
+    justify-content: space-around;
+    border-top: 5px solid #eeeeee79;
+    border-right: 5px solid #eeeeee79;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.footer a, a:visited{
+    color: inherit;
+}
+
+.footer li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
